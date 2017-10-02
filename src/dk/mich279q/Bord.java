@@ -2,8 +2,18 @@ package dk.mich279q;
 
 public class Bord {
 
-    public String materiale = "";
+    private String materiale = "";
+
     private int antalBordBen = 0;
+
+    public String getMateriale() {
+        return materiale;
+    }
+
+    public void setMateriale(String materiale) {
+        this.materiale = materiale;
+    }
+
 
     public int getAntalBordBen() {
         return antalBordBen;
@@ -12,6 +22,5 @@ public class Bord {
     public void setAntalBordBen(int antalBordBen) {
         this.antalBordBen = antalBordBen;
     }
-
 
 }

@@ -1,15 +1,25 @@
 package dk.mich279q;
 
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello World"); //Hello world test
+        System.out.println("Hello World!");
 
-        Bord bord1 = new Bord(); //ny class (Bord) med ny variabel (bord1).
+        Bord bord1 = new Bord();
+        Bord bord2 = new Bord();
+        Bord bord3 = new Bord();
 
-        bord1.materiale = "Træ"; //bord1 er lavet af træ, med variablen materiel fra klassen Bord.
-        System.out.println("Bord1 er lavet af " + bord1.materiale + ".");
+        bord1.setMateriale("Warm soft Wood, babe");
+        System.out.println("Bord1 is made of " + bord1.getMateriale() + ".");
 
-        bord1.setAntalBordBen(10); //Setter der indsætter antal bordben. (10)
-        System.out.println("Bord1 har " + bord1.getAntalBordBen() + " ben."); //udkriver Getter med antalbordben.
+        bord2.setMateriale("Cold hard Steel, baby");
+        System.out.println("Bord2 is made of " + bord2.getMateriale() + ".");
+
+        bord3.setMateriale("Pure transparent Glass, darling");
+        System.out.println("Bord3 is made of " + bord3.getMateriale() + ".");
+
+        bord1.setAntalBordBen(10);
+        System.out.println("Bord1 har " + bord1.getAntalBordBen() + " ben.");
+
     }
 }
