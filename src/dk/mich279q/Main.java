@@ -9,7 +9,7 @@ public class Main {
         Bord bord2 = new Bord();
         Bord bord3 = new Bord();
 
-        bord1.setMateriale("Warm soft Wood, babe");
+        bord1.setMateriale("Warm soft Wood, honey");
         System.out.println("Bord1 is made of " + bord1.getMateriale() + ".");
 
         bord2.setMateriale("Cold hard Steel, baby");
